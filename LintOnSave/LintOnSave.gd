@@ -9,7 +9,7 @@ var format_instance = format_button_scene.instantiate()
 func _enter_tree():
 	connect("resource_saved", _on_resource_saved)
 	var editor = get_editor_interface().get_script_editor()
-	var target = editor.get_child(0).get_child(0).get_child(6)
+	var target = editor.get_child(0).get_child(0).get_child(2)
 	target.add_sibling(format_instance)
 	format_instance.connect("pressed", on_format_pressed)
 
