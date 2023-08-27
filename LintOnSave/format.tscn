@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://blljmh1n8dewy"]
+
+[node name="Format" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Format"
